@@ -1,0 +1,55 @@
+/* Original Styles - Desktop Default */
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+html {
+    background-color: black;
+    color: white;
+}
+
+.poster {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 100px;
+}
+
+.img {
+    border: 5px solid white;
+    width: 70%;
+}
+
+/* Responsive Styles for Tablets and Phones */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Slightly reduce font size */
+    }
+
+    .poster {
+        width: 70%; /* Adjust the width for smaller screens */
+        margin-left: 15%; /* Center it properly */
+    }
+
+    .img {
+        width: 80%; /* Resize image for better fit */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem; /* Further reduce font size */
+    }
+
+    .poster {
+        width: 90%; /* Almost full width for small phones */
+        margin-left: 5%;
+        margin-top: 50px; /* Adjust spacing */
+    }
+
+    .img {
+        width: 100%; /* Make the image full-width */
+    }
+}
